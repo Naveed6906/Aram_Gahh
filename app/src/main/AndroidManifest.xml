@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AramGah"
         tools:targetApi="31">
         <activity
+            android:name=".create_account"
+            android:exported="false" />
+        <activity
             android:name=".login_screen"
             android:exported="false" />
         <activity
